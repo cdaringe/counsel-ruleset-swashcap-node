@@ -1,0 +1,10 @@
+{
+  "name": "counsel-ruleset-swashcap-node",
+  "version": "0.3.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "counsel-script": "^0.3.0",
+    "counsel-copy": "^0.3.0"
+  }
+}
