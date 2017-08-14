@@ -36,11 +36,12 @@ module.exports = {
     }),
     new CopyRule({
       src: path.resolve(__dirname, '.eslintrc.js'),
-      dest: './'
+      dest: './eslintrc.js'
     }),
 
     // test and coverage!
     new ScriptRule({
+      scriptName: 'copy-eslint-config',
       name: 'test',
       devDependencies: ['nyc', 'tape'],
       scriptName: 'test',
