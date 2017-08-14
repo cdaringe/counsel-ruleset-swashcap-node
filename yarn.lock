@@ -2,18 +2,18 @@
 # yarn lockfile v1
 
 
-counsel-copy@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/counsel-copy/-/counsel-copy-0.3.0.tgz#39fcb8add2bc0d744ffdeecd8ba53e5f6a5ea195"
+counsel-copy@^0.3.1-0:
+  version "0.3.1-0"
+  resolved "https://registry.yarnpkg.com/counsel-copy/-/counsel-copy-0.3.1-0.tgz#562422db250e91159a8d6a802e318c0fe17a2af4"
   dependencies:
-    counsel-rule "^0.3.0"
+    counsel-rule "^0.3.1-0"
 
-counsel-rule@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/counsel-rule/-/counsel-rule-0.3.0.tgz#e606ba7e80e1061f44d3d8bd78fdf09788fc6fd8"
+counsel-rule@^0.3.1-0:
+  version "0.3.1-0"
+  resolved "https://registry.yarnpkg.com/counsel-rule/-/counsel-rule-0.3.1-0.tgz#4b4a57987d0918fbe0c6ec969faa9582ae3f4c9e"
 
-counsel-script@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/counsel-script/-/counsel-script-0.3.0.tgz#4cc6191c7718ffb6a1492bc16b35d8e53ae5c544"
+counsel-script@^0.3.1-0:
+  version "0.3.1-0"
+  resolved "https://registry.yarnpkg.com/counsel-script/-/counsel-script-0.3.1-0.tgz#1843fa0594c09301fa90aeeaf4d8d84e7ddf71df"
   dependencies:
-    counsel-rule "^0.3.0"
+    counsel-rule "^0.3.1-0"
