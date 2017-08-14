@@ -1,6 +1,7 @@
 const path = require('path')
 const ScriptRule = require('counsel-script')
 const CopyRule = require('counsel-copy')
+const fs = require('fs')
 
 module.exports = {
   rules: [
