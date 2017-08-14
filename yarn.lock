@@ -2,11 +2,12 @@
 # yarn lockfile v1
 
 
-counsel-copy@^0.3.1-0:
-  version "0.3.1-0"
-  resolved "https://registry.yarnpkg.com/counsel-copy/-/counsel-copy-0.3.1-0.tgz#562422db250e91159a8d6a802e318c0fe17a2af4"
+counsel-copy@^0.3.1-1:
+  version "0.3.1-1"
+  resolved "https://registry.yarnpkg.com/counsel-copy/-/counsel-copy-0.3.1-1.tgz#c4f8171e13545e5193f52ac40224f04f6fcfa304"
   dependencies:
     counsel-rule "^0.3.1-0"
+    fs-extra "^4.0.1"
 
 counsel-rule@^0.3.1-0:
   version "0.3.1-0"
@@ -17,3 +18,25 @@ counsel-script@^0.3.1-0:
   resolved "https://registry.yarnpkg.com/counsel-script/-/counsel-script-0.3.1-0.tgz#1843fa0594c09301fa90aeeaf4d8d84e7ddf71df"
   dependencies:
     counsel-rule "^0.3.1-0"
+
+fs-extra@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-4.0.1.tgz#7fc0c6c8957f983f57f306a24e5b9ddd8d0dd880"
+  dependencies:
+    graceful-fs "^4.1.2"
+    jsonfile "^3.0.0"
+    universalify "^0.1.0"
+
+graceful-fs@^4.1.2, graceful-fs@^4.1.6:
+  version "4.1.11"
+  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
+
+jsonfile@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/jsonfile/-/jsonfile-3.0.1.tgz#a5ecc6f65f53f662c4415c7675a0331d0992ec66"
+  optionalDependencies:
+    graceful-fs "^4.1.6"
+
+universalify@^0.1.0:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/universalify/-/universalify-0.1.1.tgz#fa71badd4437af4c148841e3b3b165f9e9e590b7"
